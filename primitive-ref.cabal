@@ -1,0 +1,25 @@
+name:                   primitive-ref
+version:                0.0.0.1
+stability:              provisional
+
+cabal-version:          >= 1.2
+build-type:             Simple
+
+author:                 James Cook <mokus@deepbondi.net>
+maintainer:             James Cook <mokus@deepbondi.net>
+license:                PublicDomain
+homepage:               http://code.haskell.org/~mokus/primitive-ref
+
+category:               Data
+synopsis:               Unification of IORef and STRef via Control.Monad.Primitive
+description:            Unification of IORef and STRef via Control.Monad.Primitive
+
+source-repository head
+  type:                 git
+  location:             git://github.com/mokus0/primitive-ref.git
+
+Library
+  hs-source-dirs:       src
+  exposed-modules:      Data.STRef.Primitive
+  build-depends:        base >= 3 && < 5,
+                        primitive

@@ -8,7 +8,7 @@ build-type:             Simple
 author:                 James Cook <mokus@deepbondi.net>
 maintainer:             James Cook <mokus@deepbondi.net>
 license:                PublicDomain
-homepage:               http://code.haskell.org/~mokus/primitive-ref
+homepage:               https://github.com/mokus0/primitive-ref
 
 category:               Data
 synopsis:               Unification of IORef and STRef via Control.Monad.Primitive
